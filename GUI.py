@@ -38,11 +38,11 @@ class YOLOObjectDetectionApp:
         self.telegram_enabled = True  # Enable by default
         self.smtp_server = "smtp.gmail.com"
         self.smtp_port = 587
-        self.email_sender = "abc@gmail.com"
-        self.email_password = "cwkxqpnyegogrqaskldfja"
-        self.email_receiver = "abc@gmail.com"
-        self.telegram_bot_token = "8507910043:AAHzACUxmrmfNX6H8KqA6nBMrefWX"
-        self.telegram_chat_id = "80060"
+        self.email_sender = "SENDERS_EMAIL"
+        self.email_password = "YOUR_EMAIL_PASS"
+        self.email_receiver = "RECEIVERS_EMAIL"
+        self.telegram_bot_token = "TELEGRAM_BOT_TOKEN"
+        self.telegram_chat_id = "YOUR_TELEGRAM_ID"
 
         # Waste classification based on COCO classes
         self.bio_waste = [
